@@ -90,6 +90,7 @@ driver	eutron {
 };
 driver	ikey2k {
 	ids = {
+		usb:04b9/1200,
 		usb:04b9/1202,
 	};
 };

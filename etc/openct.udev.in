@@ -39,6 +39,7 @@ ATTR{idVendor}=="0529", ATTR{idProduct}=="0700", RUN+="@udevdir@/openct_usb /dev
 ATTR{idVendor}=="073d", ATTR{idProduct}=="0005", RUN+="@udevdir@/openct_usb /dev/$name"
 # ikey2k
 ATTR{idVendor}=="04b9", ATTR{idProduct}=="1200", RUN+="@udevdir@/openct_usb /dev/$name"
+ATTR{idVendor}=="04b9", ATTR{idProduct}=="1202", RUN+="@udevdir@/openct_usb /dev/$name"
 # ikey3k
 ATTR{idVendor}=="04b9", ATTR{idProduct}=="1300", RUN+="@udevdir@/openct_usb /dev/$name"
 # starkey

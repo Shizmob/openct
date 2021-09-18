@@ -25,6 +25,7 @@ ENV{MODALIAS}=="usb:v0529p0700*", RUN+="@udevdir@/openct_usb"
 ENV{MODALIAS}=="usb:v073Dp0005*", RUN+="@udevdir@/openct_usb"
 # ikey2k
 ENV{MODALIAS}=="usb:v04B9p1200*", RUN+="@udevdir@/openct_usb"
+ENV{MODALIAS}=="usb:v04B9p1202*", RUN+="@udevdir@/openct_usb"
 # ikey3k
 ENV{MODALIAS}=="usb:v04B9p1300*", RUN+="@udevdir@/openct_usb"
 # starkey
